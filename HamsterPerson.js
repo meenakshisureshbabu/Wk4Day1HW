@@ -32,7 +32,7 @@ class Person{
 
     setAge(age){
         //this.age = age;
-        for(let i=0;i<age;i++){
+        for(let i=this.age;i<age;i++){
             this.ageUp();
         }
     }
